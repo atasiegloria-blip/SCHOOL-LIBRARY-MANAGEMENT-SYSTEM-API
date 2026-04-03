@@ -4,14 +4,12 @@
 This is a RESTful API built using Node.js, Express.js, and MongoDB.  
 It manages a school library system including Authors, Books, Students, and Library Attendants.
 
----
 
 ## ⚙️ Tech Stack
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
 
----
 
 ## 🚀 Features
 - Create, read, update, delete Authors
@@ -20,7 +18,7 @@ It manages a school library system including Authors, Books, Students, and Libra
 - Borrow and Return Books
 - Populate related data (authors, student, attendant)
 
----
+
 
 ## 🔁 API Endpoints
 
@@ -38,12 +36,12 @@ It manages a school library system including Authors, Books, Students, and Libra
 - POST /books/:id/borrow
 - POST /books/:id/return
 
----
+
 
 ## 🧪 Testing
 All endpoints were tested using Postman.
 
----
+
 
 ## 📸 Screenshots
 
@@ -55,7 +53,7 @@ All endpoints were tested using Postman.
 
 ### Return Book
 ![Return](./return.png)
----
+
 
 ## 🛠️ How to Run
 
@@ -64,7 +62,6 @@ All endpoints were tested using Postman.
 3. Run `npm run dev`
 4. Use Postman to test endpoints
 
----
 
 ## 🙏 Acknowledgement
 Special thanks to my tutor for the guidance and support throughout this project.
